@@ -12,8 +12,6 @@ export class AuthService {
 	return this.http.post('http://localhost:1234/api/auth.php', {
 		username,
 		password
-	}).subscribe(data => {
-		console.log(data);
-	})
+	});
   }
 }
