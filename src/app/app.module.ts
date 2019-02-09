@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule;
+    HttpClientModule,
     RouterModule.forRoot([
       {
         path: 'login',
